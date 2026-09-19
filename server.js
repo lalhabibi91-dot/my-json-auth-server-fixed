@@ -89,7 +89,7 @@ async function seedDefaultUsers() {
 
   const defaults = {
     uk0wme: { password: 'ilobyou', days: 300, role: 'admin' },
-    ankit: { password: 'gupta', days: 30, role: 'user' },
+    ankit: { password: 'ankit', days: 30, role: 'user' },
     rajj: { password: 'rajj', days: 28, role: 'user' },
     john: { password: 'john7698', days: 28, role: 'user' }
   };
