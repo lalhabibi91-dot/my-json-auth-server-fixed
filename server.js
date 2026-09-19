@@ -89,9 +89,9 @@ async function seedDefaultUsers() {
 
   const defaults = {
     uk0wme: { password: 'ilobyou', days: 300, role: 'admin' },
-    ankit: { password: 'ankit', days: 30, role: 'user' },
-    rajj: { password: 'rajj', days: 28, role: 'user' },
-    john: { password: 'john7698', days: 28, role: 'user' }
+    ank: { password: 'aaa', days: 30, role: 'user' },
+    111: { password: 'abc', days: 28, role: 'user' },
+    222: { password: 'def', days: 28, role: 'user' }
   };
 
   for (const [username, cfg] of Object.entries(defaults)) {
